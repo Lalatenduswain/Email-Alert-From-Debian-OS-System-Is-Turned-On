@@ -188,7 +188,7 @@ if [ -n "$SSH_CLIENT" ]; then
   echo "$TEXT" | mail -s "SSH Login Alert - ${USER_NAME} - ${DATE} ${TIME_SUBJECT}" lalatendu.swain@gmail.com
   
   # Additional email recipient
-  echo "$TEXT" | mail -s "SSH Login Alert - ${USER_NAME} - ${DATE} ${TIME_SUBJECT}" lalatendu@ceruleaninfotech.com
+  echo "$TEXT" | mail -s "SSH Login Alert - ${USER_NAME} - ${DATE} ${TIME_SUBJECT}" swain@lalatendu.info
 fi
 ```
 
