@@ -263,6 +263,31 @@ Run the script:
 ```sh
 ./send_notification.sh
 ```
+### Setting Up Crontab
+
+To run the script at system startup, add it to your crontab:
+
+```sh
+crontab -e
+```
+
+Add the following line:
+
+```sh
+@reboot /home/lalatendu/send_notification.sh
+```
+
+Verify the crontab entry:
+
+```sh
+crontab -l
+```
+
+Output should be:
+
+```sh
+@reboot /home/lalatendu/send_notification.sh
+```
 
 ## Disclaimer | Running the Script
 
