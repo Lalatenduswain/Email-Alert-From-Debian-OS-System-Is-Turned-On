@@ -79,7 +79,7 @@ sudo nano /etc/postfix/smtp_header_checks
 Add the following line:
 
 ```sh
-/^From:.*/ REPLACE From: PVE Login Alert <systemsnotificationalert@gmail.com>
+/^From:.*/ REPLACE From: PVE Login Alert <urfromemail@gmail.com>
 ```
 
 Apply the changes:
