@@ -225,8 +225,8 @@ sudo service postfix restart
 Clone the repository and navigate to the directory:
 
 ```sh
-git clone https://github.com/Lalatenduswain/Email-Alert-From-Debian-OS-Login-and-SSH-Login
-cd Email-Alert-From-Debian-OS-Login-and-SSH-Login
+git clone https://github.com/Lalatenduswain/Email-Alert-From-Debian-OS-System-Is-Turned-On
+cd Email-Alert-From-Debian-OS-System-Is-Turned-On
 ```
 
 ### Script Content
@@ -276,4 +276,4 @@ If you find this script useful and want to show your appreciation, you can donat
 
 ## Support or Contact
 
-Encountering issues? Don't hesitate to submit an issue on our [GitHub page](https://github.com/Lalatenduswain/Email-Alert-From-Debian-OS-Login-and-SSH-Login/issues).
+Encountering issues? Don't hesitate to submit an issue on our [GitHub page](https://github.com/Lalatenduswain/Email-Alert-From-Debian-OS-System-Is-Turned-On/issues).
